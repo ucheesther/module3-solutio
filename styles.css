@@ -1,0 +1,63 @@
+body {
+    font-size: 16px;
+    color: #FFF;
+    font-family:"Lucida Console", Courier, monospace;
+}
+
+p {
+    line-height: 40px;
+    
+}
+
+#header-navi {
+    background-color: #999999;
+    color: #000000;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 {
+    color: #003f3f;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#button {
+    border: 1px solid #003f3f;
+}
+
+
+#nav-list li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+}
+
+#nav-list #last-item {
+    border: none;
+    padding-bottom: 0;
+}
+
+#main-content {
+    height: 150vh;
+}
+
+#page-title {
+    color: #28334AFF;
+    font-size: 47px;
+    margin-top: -5px;
+}
+
+#main-section {
+    background-color: #999999;
+    color: #000000;
+}
+
+@media (max-width: 767px) {
+    .collapse.in {
+        background-color: skyblue;
+    }
+}
